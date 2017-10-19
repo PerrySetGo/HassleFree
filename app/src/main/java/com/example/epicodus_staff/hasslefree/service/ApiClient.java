@@ -34,7 +34,7 @@ public class ApiClient
                 return chain.proceed(newRequest);
             }
         }).build();
-
+    //// TODO: 10/17/17  switch jackson to gson
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(YELP_API_BASE_URL)

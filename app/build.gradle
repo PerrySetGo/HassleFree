@@ -41,11 +41,10 @@ dependencies {
     // Make HTTP Calls
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.android.gms:play-services-maps:11.0.4'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.okhttp3:okhttp:3.9.0'
     testCompile 'junit:junit:4.12'
 
-    compile 'com.android.support:appcompat-v7:25.1.1'
-    compile 'com.squareup.okhttp3:okhttp:3.6.0'
-    compile 'com.squareup.retrofit2:converter-jackson:2.2.0'
-    compile 'com.squareup.retrofit2:retrofit:2.2.0'
 
 }
